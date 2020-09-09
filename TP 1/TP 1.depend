@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1599542916 source:c:\users\ezequ\desktop\nueva carpeta\tp 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1599542916 c:\users\ezequ\desktop\nueva carpeta\tp 1\funciones.h
+
+1599680706 source:c:\users\ezequ\desktop\tp 1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1599681332 c:\users\ezequ\desktop\tp 1\funciones.h
+
+1599680695 source:c:\users\ezequ\desktop\tp 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
