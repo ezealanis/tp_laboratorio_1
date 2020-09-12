@@ -64,3 +64,17 @@ float dividir(int a, int b);
  */
 long long int factorial(int num);
 
+
+/** \brief Muestra los resultados de las operaciones.
+ *
+ * \param resultado de la suma.
+ * \param resultado de la resta.
+ * \param resultado de la division.
+ * \param resultado de la multiplicacion.
+ * \param resultado del primer factorial.
+ * \param resultado del segundo factorial.
+ * \return -
+ *
+ */
+
+void mostrarResultados(int suma, int resta, float division, int multiplicar, long long int factorialA, long long int factorialB, int flagNum1, int flagNum2, int flagCalculo);

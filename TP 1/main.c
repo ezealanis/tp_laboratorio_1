@@ -66,27 +66,9 @@ int main()
             break;
 
         case 4:
-            if(flagNum1 && flagNum2 && flagCalculo)
-            {
-                printf("\nLa suma es: %d\n", resultadoSuma);
-                printf("La resta es: %d\n", resultadoResta);
-                if(resultadoDivision == -1)
-                {
-                printf("Error. No se puede dividir por 0.\n");
-                }
-                else
-                {
-                printf("La division es: %.2f\n", resultadoDivision);
-                }
-                printf("La multiplicacion es: %d\n", resultadoMult);
-                printf("Factorial de A: %lld\n", factorialA);
-                printf("Factorial de B: %lld\n", factorialB);
 
-            }
-            else
-            {
-                printf("\nPrimero debe ingresar los dos valores y calcular los resultados.\n");
-            }
+            mostrarResultados(resultadoSuma, resultadoResta, resultadoDivision, resultadoMult, factorialA, factorialB, flagNum1, flagNum2, flagCalculo);
+
             break;
 
         case 5:

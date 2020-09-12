@@ -24,3 +24,19 @@
 	<conio.h>
 	"funciones.h"
 
+1599842122 source:c:\users\ezequ\desktop\materias\programacion y laboratorio\tp 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1599842137 c:\users\ezequ\desktop\materias\programacion y laboratorio\tp 1\funciones.h
+
+1599944014 source:c:\users\ezequ\desktop\materias\programacion y laboratorio\tp 1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+

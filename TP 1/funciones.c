@@ -58,7 +58,7 @@ int restar(int a, int b)
 
 float dividir(int a, int b)
 {
-    int resultado;
+    float resultado;
 
     if(b == 0)
     {
@@ -66,7 +66,7 @@ float dividir(int a, int b)
     }
     else
     {
-    resultado = (float) a/b;
+        resultado = (float) a/b;
     }
 
     return resultado;
@@ -98,9 +98,30 @@ long long int factorial(int num)
     return fact;
 }
 
+void mostrarResultados(int suma, int resta, float division, int multiplicar, long long int factorialA, long long int factorialB, int flagNum1, int flagNum2, int flagCalculo)
+{
+    if(flagNum1 && flagNum2 && flagCalculo)
+    {
+        printf("\nLa suma es: %d\n", suma);
+        printf("La resta es: %d\n", resta);
+        if(division == -1)
+        {
+            printf("Error. No se puede dividir por 0.\n");
+        }
+        else
+        {
+            printf("La division es: %.2f\n", division);
+        }
+        printf("La multiplicacion es: %d\n", multiplicar);
+        printf("Factorial de A: %lld\n", factorialA);
+        printf("Factorial de B: %lld\n", factorialB);
+    }
+    else
+    {
+        printf("\nPrimero debe ingresar los dos valores y calcular los resultados.\n");
+    }
 
-
-
+}
 
 
 
