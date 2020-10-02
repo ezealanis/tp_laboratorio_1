@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1601001972 source:c:\users\ezequ\desktop\tp 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1601581084 source:c:\users\ezequ\desktop\prog\tp 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1601598951 source:c:\users\ezequ\desktop\prog\tp 2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+
+1601598114 c:\users\ezequ\desktop\prog\tp 2\arrayemployees.h
+
