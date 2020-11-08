@@ -197,3 +197,49 @@
 
 1604694717 c:\users\ezequ\desktop\tp3_cascara\win_64\validaciones.h
 
+1604717351 source:c:\users\ezequ\desktop\tp 3 mio\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"LinkedList.h"
+	"parser.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1533133022 c:\users\ezequ\desktop\tp 3 mio\linkedlist.h
+
+1533133022 c:\users\ezequ\desktop\tp 3 mio\parser.h
+
+1604717351 c:\users\ezequ\desktop\tp 3 mio\employee.h
+	"LinkedList.h"
+
+1604694717 c:\users\ezequ\desktop\tp 3 mio\validaciones.h
+
+1604717377 source:c:\users\ezequ\desktop\tp 3 mio\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"Validaciones.h"
+
+1604714550 source:c:\users\ezequ\desktop\tp 3 mio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604715857 c:\users\ezequ\desktop\tp 3 mio\controller.h
+
+1604689120 source:c:\users\ezequ\desktop\tp 3 mio\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604697103 source:c:\users\ezequ\desktop\tp 3 mio\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
