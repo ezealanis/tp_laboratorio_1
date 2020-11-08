@@ -38,6 +38,7 @@ int ordenarPorNombre(void* employeeA, void* employeeB);
 int ordenarPorSueldo(void* employeeA, void* employeeB);
 int ordenarPorHorasTrabajadas(void* employeeA, void* employeeB);
 
-int obtenerId(LinkedList* lista);
+int obtenerId(int* id);
+int sumarId(int id);
 
 #endif // employee_H_INCLUDED

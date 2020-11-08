@@ -112,6 +112,8 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     int error = -1;
     Employee* auxEmp;
 
+    system("cls");
+
     printf("  ALTA DE EMPLEADO.\n\n");
 
     if(pArrayListEmployee != NULL)
@@ -122,7 +124,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
 
         if(nombreOk != -1 && horasTrabajadasOk != -1  && sueldoOk  != -1 )
         {
-            id = obtenerId(pArrayListEmployee);
+            obtenerId(&id);
             itoa(horasTrabajadas, horasTrabajadasStr, 10);
             itoa(sueldo, sueldoStr, 10);
             itoa(id, idStr, 10);
@@ -133,6 +135,7 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
             {
                 ll_add(pArrayListEmployee, auxEmp);
                 printf("\nEl empleado se agrego con exito.\n\n");
+                sumarId(id);
                 error = 0;
             }
         }
@@ -253,6 +256,8 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
     if(pArrayListEmployee != NULL)
     {
 
+        system("cls");
+
         controller_ListEmployee(pArrayListEmployee);
 
         printf("--------------------------------------------------------------------------\n");
@@ -305,6 +310,9 @@ int controller_sortEmployee(LinkedList* pArrayListEmployee)
     int error = -1;
     int opcion;
     int opcionForma;
+
+    system("cls");
+    printf("Ordenar empleados.\n\n");
 
     printf("1 - Ordenar por ID.\n");
     printf("2 - Ordenar por Nombre.\n");

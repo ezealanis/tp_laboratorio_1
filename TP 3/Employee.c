@@ -384,24 +384,36 @@ int ordenarPorNombre(void* employeeA, void* employeeB)
     return retorno;
 }
 
-int obtenerId(LinkedList* lista)
+int obtenerId(int* id)
 {
-    int idMax = 1;
-    int len = ll_len(lista);
-    Employee* aux;
+    int error = -1;
+    *id = 1001;
 
-    if(lista != NULL)
+    FILE* archivoId = fopen("id.bin", "rb");
+
+    if(archivoId != NULL)
     {
-        for(int i = 0; i < len; i++)
-        {
-            aux = ll_get(lista, i);
-
-            if(aux->id > idMax)
-            {
-                idMax = aux->id + 1;
-            }
-        }
+        fread(id, sizeof(int), 1, archivoId);
+        error = 1;
+        fclose(archivoId);
     }
 
-    return idMax;
+    return error;
+}
+
+int sumarId(int id)
+{
+    int error = -1;
+    id++;
+
+    FILE* archivoId = fopen("id.bin", "wb");
+
+    if(archivoId != NULL)
+    {
+        fwrite(&id, sizeof(int), 1, archivoId);
+        error = 1;
+        fclose(archivoId);
+    }
+
+    return error;
 }

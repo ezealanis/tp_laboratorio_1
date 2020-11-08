@@ -243,3 +243,49 @@
 	<string.h>
 	"Validaciones.h"
 
+1604871443 source:c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"LinkedList.h"
+	"parser.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1604868257 c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\linkedlist.h
+
+1604868257 c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\parser.h
+
+1604871225 c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\employee.h
+	"LinkedList.h"
+
+1604868257 c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\validaciones.h
+
+1604871472 source:c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"Validaciones.h"
+
+1604868257 source:c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1604868257 c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\controller.h
+
+1604868257 source:c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604868257 source:c:\users\ezequ\desktop\tp_laboratorio_1-master\tp 3\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
