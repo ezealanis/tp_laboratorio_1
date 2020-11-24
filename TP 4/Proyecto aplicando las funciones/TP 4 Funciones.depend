@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1606174824 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+
+1606177537 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"LinkedList.h"
+	"parser.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1606085072 c:\users\ezequ\desktop\tp 4\tp 4 funciones\linkedlist.h
+
+1533133022 c:\users\ezequ\desktop\tp 4\tp 4 funciones\parser.h
+
+1606177530 c:\users\ezequ\desktop\tp 4\tp 4 funciones\employee.h
+	"LinkedList.h"
+
+1604694717 c:\users\ezequ\desktop\tp 4\tp 4 funciones\validaciones.h
+
+1606177530 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"Validaciones.h"
+
+1606176827 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1606073466 c:\users\ezequ\desktop\tp 4\inc\linkedlist.h
+
+1604689120 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604697103 source:c:\users\ezequ\desktop\tp 4\tp 4 funciones\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1606174824 c:\users\ezequ\desktop\tp 4\tp 4 funciones\controller.h
+
+1606177537 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"LinkedList.h"
+	"parser.h"
+	"Employee.h"
+	"Validaciones.h"
+
+1606085072 c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\linkedlist.h
+
+1533133022 c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\parser.h
+
+1606177530 c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\employee.h
+	"LinkedList.h"
+
+1604694717 c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\validaciones.h
+
+1606177530 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"Validaciones.h"
+
+1606176827 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../inc/LinkedList.h"
+
+1604689120 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1604697103 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validaciones.h"
+
+1606250347 source:c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+
+1606174824 c:\users\ezequ\desktop\tp 4\proyecto aplicando las funciones\controller.h
+

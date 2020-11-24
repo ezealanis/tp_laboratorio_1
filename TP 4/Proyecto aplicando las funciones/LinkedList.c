@@ -541,24 +541,26 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
  */
 LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*))
 {
-    LinkedList* nuevoLinkedlist = NULL;
+    LinkedList* listaFiltrada = NULL;
+    void* elemento = NULL;
 
     if(this != NULL && pFunc != NULL)
     {
-        nuevoLinkedlist = ll_newLinkedList();
+        listaFiltrada = ll_newLinkedList();
 
-        if(nuevoLinkedlist != NULL)
+        if(listaFiltrada != NULL)
         {
             for(int i = 0; i < ll_len(this); i++)
             {
-                if( pFunc(ll_get(this, i)) == 1 )
+                elemento = ll_get(this, i);
+
+                if( pFunc(elemento) )
                 {
-                    ll_add(nuevoLinkedlist, ll_get(this, i));
+                    ll_add(listaFiltrada, elemento);
                 }
             }
         }
-
     }
 
-    return nuevoLinkedlist;
+    return listaFiltrada;
 }

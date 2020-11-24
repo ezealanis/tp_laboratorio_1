@@ -55,5 +55,5 @@ LinkedList* ll_clone(LinkedList* this);
 int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order);
 
 
-//Agregada
+//Agregadas
 LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*));
